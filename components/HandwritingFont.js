@@ -1,6 +1,5 @@
 import React from "react";
 import { handwriting } from "../utils/fonts.js";
-import "../styles/HandwritingFont.module.css";
 
 export const HandwritingFont = ({ selectFontFamily, fontFamily, type }) => {
     const handleChange = (e) => {
