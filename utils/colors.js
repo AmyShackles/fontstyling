@@ -64,7 +64,14 @@ function hexToHSL(hex) {
 
 export function findBackgroundColor(hex) {
     const { h, s, l } = hexToHSL(hex);
+    console.log({ h, s, l });
     if (l > 70) {
+        return "#000";
+    } else if (s <= 50 && l >= 50) {
+        return "#000";
+    } else if (h <= 200 && h >= 40 && l >= 35) {
+        return "#000";
+    } else if (h <= 20 && s <= 20 && l >= 50) {
         return "#000";
     }
     return "#fff";
