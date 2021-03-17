@@ -19,60 +19,41 @@ function hexToRGB(h) {
     return { r: +r, g: +g, b: +b };
 }
 
-function hexToHSL(hex) {
-    let { r, g, b } = hexToRGB(hex);
-    // Make r, g, and b fractions of 1
-    r /= 255;
-    g /= 255;
-    b /= 255;
-
-    // Find greatest and smallest channel values
-    let cmin = Math.min(r, g, b),
-        cmax = Math.max(r, g, b),
-        delta = cmax - cmin,
-        h = 0,
-        s = 0,
-        l = 0;
-
-    // Calculate hue
-    // No difference
-    if (delta == 0) h = 0;
-    // Red is max
-    else if (cmax == r) h = ((g - b) / delta) % 6;
-    // Green is max
-    else if (cmax == g) h = (b - r) / delta + 2;
-    // Blue is max
-    else h = (r - g) / delta + 4;
-
-    h = Math.round(h * 60);
-
-    // Make negative hues positive behind 360°
-    if (h < 0) h += 360;
-
-    // Calculate lightness
-    l = (cmax + cmin) / 2;
-
-    // Calculate saturation
-    s = delta == 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-
-    // Multiply l and s by 100
-    s = +(s * 100).toFixed(1);
-    l = +(l * 100).toFixed(1);
-
-    return { h, s, l };
+// Credit for this should go to kirilloid on StackOverflow
+function luminance(r, g, b) {
+    let a = [r, g, b].map((v) => {
+        v /= 255;
+        return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+    });
+    return a[0] * 0.2126 + a[1] * 0.7152 + a[2] * 0.0722;
 }
 
 export function findBackgroundColor(hex) {
-    const { h, s, l } = hexToHSL(hex);
-    console.log({ h, s, l });
-    if (l > 70) {
-        return "#000";
-    } else if (s <= 50 && l >= 50) {
-        return "#000";
-    } else if (h <= 200 && h >= 40 && l >= 35) {
-        return "#000";
-    } else if (h <= 20 && s <= 20 && l >= 50) {
-        return "#000";
+    const white = "#ffffff";
+    const black = "#000000";
+    let textColor = hexToRGB(hex);
+    let textLuminance = luminance(textColor.r, textColor.g, textColor.b);
+    let whiteLuminance = luminance(255, 255, 255);
+    let blackLuminance = luminance(0, 0, 0);
+    const textRatioAgainstWhite =
+        textLuminance > whiteLuminance
+            ? (whiteLuminance + 0.05) / (textLuminance + 0.05)
+            : (textLuminance + 0.05) / (whiteLuminance + 0.05);
+    const textRatioAgainstBlack =
+        textLuminance > blackLuminance
+            ? (blackLuminance + 0.05) / (textLuminance + 0.05)
+            : (textLuminance + 0.05) / (blackLuminance + 0.05);
+
+    // Prefer to return background that satisfies AAA for small font
+    if (textRatioAgainstWhite < 1 / 7) {
+        return white;
+    } else if (textRatioAgainstBlack < 1 / 7) {
+        return black;
     }
-    return "#fff";
+    // If that isn't achievable, return background that satisfies AA for small font
+    if (textRatioAgainstWhite < 1 / 4.5) {
+        return white;
+    } else if (textRatioAgainstBlack < 1 / 4.5) {
+        return black;
+    }
 }
