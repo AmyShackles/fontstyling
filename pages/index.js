@@ -22,6 +22,7 @@ export default function Home() {
                     content="width=device-width, initial-scale=1.0"
                 />
                 <meta name="description" content="Choose your own fonts" />
+                <meta name="theme-color" content="#FFFFFF" />
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
