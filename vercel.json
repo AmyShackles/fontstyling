@@ -1,0 +1,13 @@
+{
+    "headers": [
+        {
+            "source": "/fonts/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "604800"
+                }
+            ]
+        }
+    ]
+}
