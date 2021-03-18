@@ -1,7 +1,18 @@
+import React from "react";
 import Head from "next/head";
 import { FontStyle } from "../components/FontStyle.js";
 
 export default function Home() {
+    const [isLoading, setIsLoading] = React.useState(false);
+
+    React.useEffect(() => {
+        document.fonts.onloading = () => {
+            setIsLoading(true);
+        };
+        document.fonts.onloadingdone = () => {
+            setIsLoading(false);
+        };
+    }, []);
     return (
         <div>
             <Head>
@@ -16,6 +27,10 @@ export default function Home() {
             </Head>
 
             <main suppressHydrationWarning={true}>
+                {isLoading ? 
+                <div>Loading ...</div> 
+                : (
+                <>
                 {typeof window !== "undefined" && <FontStyle type="h" />}
 
                 <h1>Example h1</h1>
@@ -24,6 +39,8 @@ export default function Home() {
                 <h4>Example h4</h4>
                 <h5>Example h5</h5>
                 <h6>Example h6</h6>
+                </>
+                )}
             </main>
 
             <footer></footer>
