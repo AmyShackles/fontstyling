@@ -27,19 +27,17 @@ export default function Home() {
             </Head>
 
             <main suppressHydrationWarning={true}>
-                {isLoading ? 
-                <div>Loading ...</div> 
-                : (
-                <>
-                {typeof window !== "undefined" && <FontStyle type="h" />}
-
-                <h1>Example h1</h1>
-                <h2>Example h2</h2>
-                <h3>Example h3</h3>
-                <h4>Example h4</h4>
-                <h5>Example h5</h5>
-                <h6>Example h6</h6>
-                </>
+                {typeof window !== "undefined" && (
+                    <>
+                        <FontStyle type="h" isLoading={isLoading}>
+                            <h1>Example h1</h1>
+                            <h2>Example h2</h2>
+                            <h3>Example h3</h3>
+                            <h4>Example h4</h4>
+                            <h5>Example h5</h5>
+                            <h6>Example h6</h6>
+                        </FontStyle>
+                    </>
                 )}
             </main>
 
