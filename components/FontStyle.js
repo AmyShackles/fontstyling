@@ -100,7 +100,7 @@ export const FontStyle = ({ type, isLoading, children }) => {
     const handleFontTypeChange = (e) => {
         setFontType(e.target.value);
         localStorage.setItem(`${type}-fontType`, e.target.value);
-        if (e.target.value === "Display") {
+        if (e.target.value === "Display" || e.target.value === "Handwriting") {
             setFontFamily("cursive");
         } else {
             setFontFamily(e.target.value.toLowerCase());

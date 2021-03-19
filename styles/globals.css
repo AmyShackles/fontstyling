@@ -552,8 +552,22 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Cherry Cream Soda";
+  src: url("../public/fonts/Display/CherryCreamSoda-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Cherry Swash";
   src: url("../public/fonts/Display/CherrySwash-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Chewy";
+  src: url("../public/fonts/Display/Chewy-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -645,6 +659,13 @@ legend {
 @font-face {
   font-family: "Croissant One";
   src: url("../public/fonts/Display/CroissantOne-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Crushed";
+  src: url("../public/fonts/Display/Crushed-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -785,6 +806,13 @@ legend {
 @font-face {
   font-family: "Flavors";
   src: url("../public/fonts/Display/Flavors-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Fontdiner Swanky";
+  src: url("../public/fonts/Display/FontdinerSwanky-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -999,7 +1027,13 @@ legend {
   font-weight: 400;
   font-display: fallback;
 }
-
+@font-face {
+  font-family: "Irish Grover";
+  src: url("../public/fonts/Display/IrishGrover-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
 @font-face {
   font-family: "Jacques Francois Shadow";
   src: url("../public/fonts/Display/JacquesFrancoisShadow-Regular.woff2");
@@ -1073,6 +1107,13 @@ legend {
 @font-face {
   font-family: "Knewave";
   src: url("../public/fonts/Display/Knewave-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Kranky";
+  src: url("../public/fonts/Display/Kranky-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -1253,6 +1294,13 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Luckiest Guy";
+  src: url("../public/fonts/Display/LuckiestGuy-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Macondo";
   src: url("../public/fonts/Display/Macondo-Regular.woff2");
   font-style: normal;
@@ -1269,6 +1317,13 @@ legend {
 @font-face {
   font-family: "Margarine";
   src: url("../public/fonts/Display/Margarine-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Maiden Orange";
+  src: url("../public/fonts/Display/MaidenOrange-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -1813,6 +1868,27 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Slackey";
+  src: url("../public/fonts/Display/Slackey-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Smokum";
+  src: url("../public/fonts/Display/Smokum-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Special Elite";
+  src: url("../public/fonts/Display/SpecialElite-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Smythe";
   src: url("../public/fonts/Display/Smythe-Regular.woff2");
   font-style: normal;
@@ -1976,6 +2052,13 @@ legend {
 @font-face {
   font-family: "Unica One";
   src: url("../public/fonts/Display/UnicaOne-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Unkempt";
+  src: url("../public/fonts/Display/Unkempt-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -2205,6 +2288,13 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Calligraffitti";
+  src: url("../public/fonts/Handwriting/Calligraffitti-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Caveat";
   src: url("../public/fonts/Handwriting/Caveat-Regular.woff2");
   font-style: normal;
@@ -2254,6 +2344,13 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Coming Soon";
+  src: url("../public/fonts/Handwriting/ComingSoon-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Condiment";
   src: url("../public/fonts/Handwriting/Condiment-Regular.woff2");
   font-style: normal;
@@ -2270,6 +2367,13 @@ legend {
 @font-face {
   font-family: "Courgette";
   src: url("../public/fonts/Handwriting/Courgette-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Crafty Girls";
+  src: url("../public/fonts/Handwriting/CraftyGirls-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -2436,6 +2540,13 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "HomemadeApple";
+  src: url("../public/fonts/Handwriting/HomemadeApple-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Indie Flower";
   src: url("../public/fonts/Handwriting/IndieFlower-Regular.woff2");
   font-style: normal;
@@ -2466,6 +2577,13 @@ legend {
 @font-face {
   font-family: "Julee";
   src: url("../public/fonts/Handwriting/Julee-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Just Another Hand";
+  src: url("../public/fonts/Handwriting/JustAnotherHand-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -2611,6 +2729,13 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Montez";
+  src: url("../public/fonts/Handwriting/Montez-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Mr Bedfort";
   src: url("../public/fonts/Handwriting/MrBedfort-Regular.woff2");
   font-style: normal;
@@ -2652,7 +2777,13 @@ legend {
   font-weight: 400;
   font-display: fallback;
 }
-
+@font-face {
+  font-family: "Nanum Pen Script";
+  src: url("../public/fonts/Handwriting/NanumPenScript-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
 @font-face {
   font-family: "Nerko One";
   src: url("../public/fonts/Handwriting/NerkoOne-Regular.woff2");
@@ -2710,6 +2841,13 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Permanent Marker";
+  src: url("../public/fonts/Handwriting/PermanentMarker-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Petit Formal Script";
   src: url("../public/fonts/Handwriting/PetitFormalScript-Regular.woff2");
   font-style: normal;
@@ -2745,6 +2883,34 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Rancho";
+  src: url("../public/fonts/Handwriting/Rancho-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Redressed";
+  src: url("../public/fonts/Handwriting/Redressed-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Rochester";
+  src: url("../public/fonts/Handwriting/Rochester-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Rock Salt";
+  src: url("../public/fonts/Handwriting/RockSalt-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Romanesco";
   src: url("../public/fonts/Handwriting/Romanesco-Regular.woff2");
   font-style: normal;
@@ -2775,6 +2941,20 @@ legend {
 @font-face {
   font-family: "Sacramento";
   src: url("../public/fonts/Handwriting/Sacramento-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Satisfy";
+  src: url("../public/fonts/Handwriting/Satisfy-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Schoolbell";
+  src: url("../public/fonts/Handwriting/Schoolbell-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -2836,6 +3016,13 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Sunshiney";
+  src: url("../public/fonts/Handwriting/Sunshiney-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Tangerine";
   src: url("../public/fonts/Handwriting/Tangerine-Regular.woff2");
   font-style: normal;
@@ -2852,6 +3039,20 @@ legend {
 @font-face {
   font-family: "Vibur";
   src: url("../public/fonts/Handwriting/Vibur-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Walter Turncoat";
+  src: url("../public/fonts/Handwriting/WalterTurncoat-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Yellowtail";
+  src: url("../public/fonts/Handwriting/Yellowtail-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -2887,6 +3088,13 @@ legend {
 @font-face {
   font-family: "Courier Prime";
   src: url("../public/fonts/Monospace/CourierPrime-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Cousine";
+  src: url("../public/fonts/Monospace/Cousine-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -2969,6 +3177,13 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Roboto Mono";
+  src: url("../public/fonts/Monospace/RobotoMono-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Share Tech Mono";
   src: url("../public/fonts/Monospace/ShareTechMono-Regular.woff2");
   font-style: normal;
@@ -3020,6 +3235,13 @@ legend {
 @font-face {
   font-family: "Abel";
   src: url("../public/fonts/SansSerif/Abel-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Aclonica";
+  src: url("../public/fonts/SansSerif/Aclonica-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -3150,6 +3372,7 @@ legend {
   font-weight: 400;
   font-display: fallback;
 }
+
 @font-face {
   font-family: "Archivo Black";
   src: url("../public/fonts/SansSerif/ArchivoBlack-Regular.woff2");
@@ -3160,6 +3383,13 @@ legend {
 @font-face {
   font-family: "Archivo Narrow";
   src: url("../public/fonts/SansSerif/ArchivoNarrow-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Arimo";
+  src: url("../public/fonts/SansSerif/Arimo-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -4390,6 +4620,13 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Pathway Gothic One";
+  src: url("../public/fonts/SansSerif/PathwayGothicOne-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Pattaya";
   src: url("../public/fonts/SansSerif/Pattaya-Regular.woff2");
   font-style: normal;
@@ -4462,6 +4699,13 @@ legend {
 @font-face {
   font-family: "Proza Libre";
   src: url("../public/fonts/SansSerif/ProzaLibre-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("../public/fonts/SansSerif/PT_Sans-Web-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -4582,6 +4826,13 @@ legend {
 @font-face {
   font-family: "Roboto";
   src: url("../public/fonts/SansSerif/Roboto-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("../public/fonts/SansSerif/RobotoCondensed-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -4842,6 +5093,13 @@ legend {
 @font-face {
   font-family: "Sulphur Point";
   src: url("../public/fonts/SansSerif/SulphurPoint-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Syncopate";
+  src: url("../public/fonts/SansSerif/Syncopate-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -5884,13 +6142,13 @@ legend {
   font-weight: 400;
   font-display: fallback;
 }
-/* @font-face {
+@font-face {
   font-family: "PT Serif";
-  src: url("../public/fonts/Serif/PTSerif-Regular.woff2");
+  src: url("../public/fonts/Serif/PT_Serif-Web-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
-} */
+}
 @font-face {
   font-family: "PT Serif Caption";
   src: url("../public/fonts/Serif/PT_Serif-Caption-Web-Regular.woff2");
@@ -5936,6 +6194,13 @@ legend {
 @font-face {
   font-family: "Rhodium Libre";
   src: url("../public/fonts/Serif/RhodiumLibre-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("../public/fonts/Serif/RobotoSlab-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
@@ -6137,6 +6402,13 @@ legend {
   font-display: fallback;
 }
 @font-face {
+  font-family: "Tinos";
+  src: url("../public/fonts/Serif/Tinos-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
   font-family: "Trirong";
   src: url("../public/fonts/Serif/Trirong-Regular.woff2");
   font-style: normal;
@@ -6153,6 +6425,13 @@ legend {
 @font-face {
   font-family: "Trykker";
   src: url("../public/fonts/Serif/Trykker-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+@font-face {
+  font-family: "Ultra";
+  src: url("../public/fonts/Serif/Ultra-Regular.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: fallback;
